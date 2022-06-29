@@ -70,6 +70,12 @@ clonando repositorios
     para esta acao utilizamos git clone 
     passando a referencia do repositorio remoto
     este comando e utilizado quando entramos em um novo projeto por exemplo     
+removendo arquivos do repo
+    os arquivos podem ser deletados da monitoração do git
+    o comando para deletar e git rm 
+    apos deletar um arquivo do git ele nao tera mais suas atualizacoes 
+    consideradas pelo git
+    apenas quando for adicionando novamente pelo git add    
                              // COMANDOS
         git add nome_arquivo // adicionar somente o arquivo
         git add . // adicionar todos os arquivos juntos
@@ -79,3 +85,4 @@ clonando repositorios
         git push // enviar para o repositorio
         git pull // trazer funcionalidades puxar 
         git clone mais url . // clona projeto
+        git rm nome arquivo // remover arquivos do repositorio
