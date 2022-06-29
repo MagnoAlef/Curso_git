@@ -54,9 +54,28 @@ salvando alteraçoes do projeto
     as alteraçoes salvas do projeto sao realizadas por git commit
     podemos commitar arquivos especificos ou varios de uma vez com a flag -a
     e uma boa pratica enviar uma mensagem a cada commit com as alteraçoes que foram feitas
-    a mensagem pode ser adicionada com a flag -m     
+    a mensagem pode ser adicionada com a flag -m  
+enviando codigo ao repo remoto
+    quando finalizamos uma funcionalidade nova, enviamos o codigo ao repositorio remoto ,
+    que e o codigo fonte
+    esta acao e feita pelo git push
+    apos esta acao o codigo do servidor sera atualizado baseando-se no codigo local enviado  
+recebendo as mudanças
+    e comun tambem ter que sincronizar o local com as mudanças do remoto
+    esta acao e feita pelo git pull
+    apos o comando serao buscadas atualizacoes se encontradas elas serao unidas
+    ao codigo atual existente na nossa maquina          
+clonando repositorios
+    o ato de baixar um repositorio de um servidor remoto e chamando de clonar repositorio
+    para esta acao utilizamos git clone 
+    passando a referencia do repositorio remoto
+    este comando e utilizado quando entramos em um novo projeto por exemplo     
                              // COMANDOS
-       git add nome_arquivo // adicionar somente o arquivo
-       git add . // adicionar todos os arquivos juntos
-       git status // mostrar o status dos arquivos
-       git commit nome_arquivo -m "mensagem a ser exibida"
+        git add nome_arquivo // adicionar somente o arquivo
+        git add . // adicionar todos os arquivos juntos
+        git status // mostrar o status dos arquivos
+        git commit nome_arquivo -m "mensagem a ser exibida"// enviado comit especifico
+        git commit -a -m "mensagem a ser exibida" // enviar todos os comits
+        git push // enviar para o repositorio
+        git pull // trazer funcionalidades puxar 
+        git clone mais url . // clona projeto
