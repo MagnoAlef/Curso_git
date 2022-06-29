@@ -1,0 +1,40 @@
+O que e controle de versão?
+    Uma tecnica que ajuda a gerenciar o codigo fonte de uma aplicação.
+    registrando todas as modificaçoes de codigo podendo tambem reverter as mesmas.
+    criar versoes de um software em diferentes estagios podendo alterar facilmente entre elas.
+    cada membro da equipe pode trabalhar em uma versao diferente.
+    ha ferramentas para trabalhar o controle de versao como git e outros
+O que e git?
+    o sistema de controle de versão mais utilizado no mundo atualemnte.
+    o git e baseado em repositorios que contem todas as versoes do codigo 
+    e tambem as copias de cada desenvolvedor.
+    todas as operaçoes do git sao otimizadas para ter alto desempenho.
+    todos os objetos do git sao protegidos como criptografia para evitar 
+    alteraçoes indevidas e maliciosas.
+    o git e um projeto de codigo aberto.
+//GIT FUNDAMENTAL
+o que e um repositorio?
+    e onde o codigo sera armazenado.
+    na maioria das vezes cada projeto tem um repositorio.
+    quando criamos um repositorio estamos iniciando um projeto.
+    o repositorio pode ir para servidores que sao especializados em gerenciar 
+    repos, como github e bitbucket.
+    cada um dos desenvolvedores do time pode baixar o repositorio e criar versoẽs diferentes 
+    em sua maquina.
+Crando repositorios.
+    para criar um repositorio utilizamos o comando git init.
+    desta maneira o git vai criar os arquivos necessarios para inicializa-los.
+    que estao na pasta oculta .git.
+    apos este comando o diretorio atual sera reconhecido pelo git como 
+    um projeto e respondera aos seus demais comandos.
+o que e github?
+    e um servico para gerenciar repositorios gratuito e amplamente utilizado.
+    podemos enviar nossos projetos para o github e disponibiliza-los para outros devs.
+    o github e gratuito tanto para projetos publicos como privados.
+Enviando repositorios para o github.
+    Podemos facilmente enviar nossos repos para o github.
+    precisamos criar o  projeto no github inicializar o mesmo no git em nossa
+    maquina , sincronizar com o github e enviar.
+    e esta sequencia que parece ser complexa e facilmente executada por poucos comandos.
+    vale lembrar que so fazemos uma vez por projeto este fluxo.
+    porem alguns dos comandos utilizados vao ser uteis ao longo do curso.
