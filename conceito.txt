@@ -77,9 +77,14 @@ removendo arquivos do repo
     consideradas pelo git
     apenas quando for adicionando novamente pelo git add 
 Historico de alteraçoes
-podemos acessar um log de  modificados feitas no projeto
-o comando para este recuros e git log
-voce recebera uma informação dos commits realizados no projeto ate entao       
+    podemos acessar um log de  modificados feitas no projeto
+    o comando para este recuros e git log
+    voce recebera uma informação dos commits realizados no projeto ate entao 
+Renomeando arquivos
+    com o comando git mv podemso renomear um arquivo
+    o mesmo tambem pode ser movido para outra pasta
+    e isso fara com que este novo arquivo seja monitorado pelo git
+    o arquivo anterior e excluido          
                              // COMANDOS
         git add nome_arquivo // adicionar somente o arquivo
         git add . // adicionar todos os arquivos juntos
@@ -91,3 +96,4 @@ voce recebera uma informação dos commits realizados no projeto ate entao
         git clone mais url . // clona projeto
         git rm nome arquivo // remover arquivos do repositorio
         git log // informaçoes dos commits.
+        git mv // serve para renomear ou muda pasta de local
