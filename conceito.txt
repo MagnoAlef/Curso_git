@@ -84,7 +84,12 @@ Renomeando arquivos
     com o comando git mv podemso renomear um arquivo
     o mesmo tambem pode ser movido para outra pasta
     e isso fara com que este novo arquivo seja monitorado pelo git
-    o arquivo anterior e excluido          
+    o arquivo anterior e excluido    
+Desfazendo alteraçoes
+    o arquivo modificado pode ser retornado ao estado original
+    o comando utilizado e o git checkout
+    apos a utilização do mesmo o arquivo sai do staging
+    caso seja feita uma proxima alteração ele entra em staging novamente          
                              // COMANDOS
         git add nome_arquivo // adicionar somente o arquivo
         git add . // adicionar todos os arquivos juntos
@@ -96,4 +101,6 @@ Renomeando arquivos
         git clone mais url . // clona projeto
         git rm nome arquivo // remover arquivos do repositorio
         git log // informaçoes dos commits.
-        git mv nome do arquivo pasta/nome_arquivo // serve para renomear ou muda pasta de local
+        git mv nome do arquivo pasta/nome_arquivo // mover arquivos
+        git mv pasta/arquivo.css pasta/novo_nome.css//muda nome dos arquivos
+        git checkout pasta/nome_arquivo // desfaz alteraçoes
