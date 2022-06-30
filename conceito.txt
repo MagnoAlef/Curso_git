@@ -89,7 +89,13 @@ Desfazendo alteraçoes
     o arquivo modificado pode ser retornado ao estado original
     o comando utilizado e o git checkout
     apos a utilização do mesmo o arquivo sai do staging
-    caso seja feita uma proxima alteração ele entra em staging novamente          
+    caso seja feita uma proxima alteração ele entra em staging novamente  
+Ignorando arquivos no projeto
+    uma tecnica muito utilizada e ignorar arquivos do projeto
+    devemos inserir um arquivo chamado .gitignore na raiz do projeto
+    nele podemos inserir todos os arquivos que nao devem entrar no versionamento
+    isso e util para arquivos gerados automaticamente ou arquivos que 
+    contem informaçoes sensiveis            
                              // COMANDOS
         git add nome_arquivo // adicionar somente o arquivo
         git add . // adicionar todos os arquivos juntos
