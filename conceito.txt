@@ -96,4 +96,4 @@ Renomeando arquivos
         git clone mais url . // clona projeto
         git rm nome arquivo // remover arquivos do repositorio
         git log // informaçoes dos commits.
-        git mv // serve para renomear ou muda pasta de local
+        git mv nome do arquivo pasta/nome_arquivo // serve para renomear ou muda pasta de local
