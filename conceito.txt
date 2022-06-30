@@ -75,7 +75,11 @@ removendo arquivos do repo
     o comando para deletar e git rm 
     apos deletar um arquivo do git ele nao tera mais suas atualizacoes 
     consideradas pelo git
-    apenas quando for adicionando novamente pelo git add    
+    apenas quando for adicionando novamente pelo git add 
+Historico de alteraçoes
+podemos acessar um log de  modificados feitas no projeto
+o comando para este recuros e git log
+voce recebera uma informação dos commits realizados no projeto ate entao       
                              // COMANDOS
         git add nome_arquivo // adicionar somente o arquivo
         git add . // adicionar todos os arquivos juntos
@@ -86,3 +90,4 @@ removendo arquivos do repo
         git pull // trazer funcionalidades puxar 
         git clone mais url . // clona projeto
         git rm nome arquivo // remover arquivos do repositorio
+        git log // informaçoes dos commits.
