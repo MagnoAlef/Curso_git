@@ -75,7 +75,31 @@ removendo arquivos do repo
     o comando para deletar e git rm 
     apos deletar um arquivo do git ele nao tera mais suas atualizacoes 
     consideradas pelo git
-    apenas quando for adicionando novamente pelo git add    
+    apenas quando for adicionando novamente pelo git add 
+Historico de alteraçoes
+    podemos acessar um log de  modificados feitas no projeto
+    o comando para este recuros e git log
+    voce recebera uma informação dos commits realizados no projeto ate entao 
+Renomeando arquivos
+    com o comando git mv podemso renomear um arquivo
+    o mesmo tambem pode ser movido para outra pasta
+    e isso fara com que este novo arquivo seja monitorado pelo git
+    o arquivo anterior e excluido    
+Desfazendo alteraçoes
+    o arquivo modificado pode ser retornado ao estado original
+    o comando utilizado e o git checkout
+    apos a utilização do mesmo o arquivo sai do staging
+    caso seja feita uma proxima alteração ele entra em staging novamente  
+Ignorando arquivos no projeto
+    uma tecnica muito utilizada e ignorar arquivos do projeto
+    devemos inserir um arquivo chamado .gitignore na raiz do projeto
+    nele podemos inserir todos os arquivos que nao devem entrar no versionamento
+    isso e util para arquivos gerados automaticamente ou arquivos que 
+    contem informaçoes sensiveis  
+desfazendo todas as alteraçoes
+    com o comando git reset podemos resetar as mudanças feitas
+    geralmente e utilizado com a flag --hard
+    todas as alteracoes commitadas e tambem as pendentes serao excluidas              
                              // COMANDOS
         git add nome_arquivo // adicionar somente o arquivo
         git add . // adicionar todos os arquivos juntos
@@ -86,3 +110,7 @@ removendo arquivos do repo
         git pull // trazer funcionalidades puxar 
         git clone mais url . // clona projeto
         git rm nome arquivo // remover arquivos do repositorio
+        git log // informaçoes dos commits.
+        git mv nome do arquivo pasta/nome_arquivo // mover arquivos
+        git mv pasta/arquivo.css pasta/novo_nome.css//muda nome dos arquivos
+        git checkout pasta/nome_arquivo // desfaz alteraçoes
