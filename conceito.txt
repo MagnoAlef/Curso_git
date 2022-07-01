@@ -95,11 +95,15 @@ Ignorando arquivos no projeto
     devemos inserir um arquivo chamado .gitignore na raiz do projeto
     nele podemos inserir todos os arquivos que nao devem entrar no versionamento
     isso e util para arquivos gerados automaticamente ou arquivos que 
+<<<<<<< HEAD
     contem informaçoes sensiveis  
 desfazendo todas as alteraçoes
     com o comando git reset podemos resetar as mudanças feitas
     geralmente e utilizado com a flag --hard
     todas as alteracoes commitadas e tambem as pendentes serao excluidas              
+=======
+    contem informaçoes sensiveis            
+>>>>>>> 41217611ff2471a6bcdf243f79fed6905c56f372
                              // COMANDOS
         git add nome_arquivo // adicionar somente o arquivo
         git add . // adicionar todos os arquivos juntos
