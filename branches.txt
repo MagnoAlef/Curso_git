@@ -1,0 +1,13 @@
+O que são branches?
+    branch e a forma que o git separa as versoes do projeto
+    quando um projeto e criado ele inicia na branch main , estamos trabalhando nela ate este ponto
+    do curso
+    geralmente cada nova feature de um projeto fica em uma branch separado
+    apos a finalizaçaõ das alteraçoes os branch sao unidos para ter o codigo fonte final
+Criando e visualizando os branches
+    para visualizar os branchs disponiveis basta digitar git branch
+    para criar um branch voce precisa utilizar o comando git branch <nome>
+    estas duas operacoes sao muito utilizadas no dia a dia de um dev
+    
+        
+    
