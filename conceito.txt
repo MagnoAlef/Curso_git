@@ -111,3 +111,4 @@ Ignorando arquivos no projeto
         git mv pasta/arquivo.css pasta/novo_nome.css//muda nome dos arquivos
         git checkout pasta/nome_arquivo // desfaz alteraçoes
         git reset --hard origin/main // utilizado para volta no ultimo commit
+        git push --force origin master // forca o push
