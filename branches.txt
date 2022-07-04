@@ -8,6 +8,28 @@ Criando e visualizando os branches
     para visualizar os branchs disponiveis basta digitar git branch
     para criar um branch voce precisa utilizar o comando git branch <nome>
     estas duas operacoes sao muito utilizadas no dia a dia de um dev
+Deletando branches
+    podemos deletar um branch com a flag -d ou --delete
+    nao e comum deletar um branch , normalmente guardamos o historico do trabalho
+    geralemnte se usa o delete quando o branch foi criado errado                               
+Mudando de branch
+    podemos mudar para outro branch utilizando o comando git checkout - b <nome>
+    este comando tambem e utilizado para dispensar mudanças de um arquivo
+    alterando o branch podemos levar alteraçoes que nao foram commitadas junto, tome cuidado                              
+Unindo branches
+    o codigo de dois branches distintos pode ser unido pelo comando git marge <nome>
+    outro comando para a lista dos mais utilizados
+    normalmente e por meio dele que recebemos as atualizacoes de outros devs
+                               COMANDOS
+    git branch // visualizar a branch atual
+    git branch nome_branch // criado novo branches 
+    git branch -d nome_branch // deletar branches
+    git checkout nome_branch// mudanças de branch
+    git checkout -b nome_branch // muda e criar nova branch
+    git merge <nome> // junta o codigo
+
     
+
+
         
     
