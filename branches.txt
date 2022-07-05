@@ -40,6 +40,16 @@ Utilizando tags
     git tag -a <nome> -m "<msg>"
     a tag e diferente do stash serve como um checkpoint de um branche
     e utilizado para demarcar estagios do desemvolvimento de algum recurso                      
+Verificando e alterando tags
+    podemos verificar uma tag com o comando git show <nome>
+    podemos trocar de tags com o comando git checkout <nome>
+    desta maneira podemos retroceder ou avancar em checkpoints de uma branch
+Enviando e compartilhando tags
+as tags podem ser enviadas para o repositorio de codigo sendo 
+compartilhada entre os devs
+o comando e git push origin <main>
+ou seja voce quiser enviar mais tags git push origin --tags
+
                                COMANDOS
     git branch // visualizar a branch atual
     git branch nome_branch // criado novo branches 
@@ -53,7 +63,7 @@ Utilizando tags
     git stash clear //limpa as stash
     git stash drop <nome> // deletar stash especifica
     git tag -a <nome> -m "<msg>"// criando tags // git tag -a v1.0 -m "primeira versao"
-
-
-        
-    
+    git show <nome> // verificar uma tag
+    git checkout <nome>trocar de tags
+    git push origin <main>//enviando tags para repositorio
+    git push origin --tags//mais tags
