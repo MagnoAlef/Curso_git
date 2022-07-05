@@ -26,6 +26,7 @@ Unindo branches
     git branch -d nome_branch // deletar branches
     git checkout nome_branch// mudanças de branch
     git checkout -b nome_branch // muda e criar nova branch
+<<<<<<< HEAD
     git merge <nome> // junta o codigo
 
     
@@ -33,3 +34,6 @@ Unindo branches
 
         
     
+=======
+    git merge <nome> // junta o codigo...
+>>>>>>> 98494599c2fb740e1ac2679602734abf928d53c4
