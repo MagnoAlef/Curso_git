@@ -65,5 +65,5 @@ ou seja voce quiser enviar mais tags git push origin --tags
     git tag -a <nome> -m "<msg>"// criando tags // git tag -a v1.0 -m "primeira versao"
     git show <nome> // verificar uma tag
     git checkout <nome>trocar de tags
-    git push origin <main>//enviando tags para repositorio
-    git push origin --tags//mais tags
+    git push origin <nome_tags>//enviando tags para repositorio
+    git push origin --tags//enviar todas as tags
