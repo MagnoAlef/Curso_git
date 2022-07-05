@@ -20,6 +20,16 @@ Unindo branches
     o codigo de dois branches distintos pode ser unido pelo comando git marge <nome>
     outro comando para a lista dos mais utilizados
     normalmente e por meio dele que recebemos as atualizacoes de outros devs
+Recuperando stash
+    podemos verificar as stashs criadas pelo comando git stash list
+    e tambem podemos recuperar a stash com o comando git stash <nome>
+    desta maneira podemos continuar de onde paramos com os arquivos
+    adicionados a stash   
+Removendo a stash
+para limpar totalmente as stash de um branch podemos utilizar o comando
+git stash clear     
+caso seja necessario deletar uma stash especifica podemos utilizar
+git stash drop <nome>                    
                                COMANDOS
     git branch // visualizar a branch atual
     git branch nome_branch // criado novo branches 
@@ -27,8 +37,11 @@ Unindo branches
     git checkout nome_branch// mudanças de branch
     git checkout -b nome_branch // muda e criar nova branch
     git merge <nome> // junta o codigo
-
-    
+    git stash // reseta o codigo
+    git stash list// verificar as stashs
+    git stash apply 0// recuperar as stashs// o 0 e o numero da stash
+    git stash clear //limpa as stash
+    git stash drop <nome> // deletar stash especifica
 
 
         
