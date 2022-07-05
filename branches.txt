@@ -20,16 +20,26 @@ Unindo branches
     o codigo de dois branches distintos pode ser unido pelo comando git marge <nome>
     outro comando para a lista dos mais utilizados
     normalmente e por meio dele que recebemos as atualizacoes de outros devs
+Stash
+    podemos salvas as modificaçoes atuais para prosseguir com uma outra
+    abordagem de solucao e nao perder o codigo
+    o comando para esta acao e o git stash
+    apos o comando o branch sera resetado para a sua versao de acordo com a repo
 Recuperando stash
     podemos verificar as stashs criadas pelo comando git stash list
     e tambem podemos recuperar a stash com o comando git stash <nome>
     desta maneira podemos continuar de onde paramos com os arquivos
     adicionados a stash   
 Removendo a stash
-para limpar totalmente as stash de um branch podemos utilizar o comando
-git stash clear     
-caso seja necessario deletar uma stash especifica podemos utilizar
-git stash drop <nome>                    
+    para limpar totalmente as stash de um branch podemos utilizar o comando
+    git stash clear     
+    caso seja necessario deletar uma stash especifica podemos utilizar
+    git stash drop <nome>  
+Utilizando tags
+    podemos criar tags nos branches por meio do comando 
+    git tag -a <nome> -m "<msg>"
+    a tag e diferente do stash serve como um checkpoint de um branche
+    e utilizado para demarcar estagios do desemvolvimento de algum recurso                      
                                COMANDOS
     git branch // visualizar a branch atual
     git branch nome_branch // criado novo branches 
@@ -42,6 +52,7 @@ git stash drop <nome>
     git stash apply 0// recuperar as stashs// o 0 e o numero da stash
     git stash clear //limpa as stash
     git stash drop <nome> // deletar stash especifica
+    git tag -a <nome> -m "<msg>"// criando tags // git tag -a v1.0 -m "primeira versao"
 
 
         
