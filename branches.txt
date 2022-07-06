@@ -54,6 +54,11 @@ Encontrando branches
     com o comando fit fetch voce e atualizado de todos os branchs e tags
     que ainda nao estao reconhecidos por voce
     este comando e util para utilizar o branch de algum outro dev do time
+Recebendo alteraçoes
+    o comando git pull serve para recebermos atualizacoes do repositorio remoto
+    cada branch pode ser atualizada com o git pull
+    utilizamos para atualizar a master do repo como tambem quando 
+    trabalhamos em conjunto e queremos receber as atualizacoes de um dev     
                                COMANDOS
     git branch // visualizar a branch atual
     git branch nome_branch // criado novo branches 
