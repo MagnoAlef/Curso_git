@@ -29,7 +29,31 @@ Removendo a stash
     para limpar totalmente as stash de um branch podemos utilizar o comando
     git stash clear     
     caso seja necessario deletar uma stash especifica podemos utilizar
-    git stash drop <nome>                    
+    git stash drop <nome>  
+    Utilizando tags
+    podemos criar tags nos branches por meio do comando 
+    git tag -a <nome> -m "<msg>"
+    a tag e diferente do stash serve como um checkpoint de um branche
+    e utilizado para demarcar estagios do desemvolvimento de algum recurso                      
+Verificando e alterando tags
+    podemos verificar uma tag com o comando git show <nome>
+    podemos trocar de tags com o comando git checkout <nome>
+    desta maneira podemos retroceder ou avancar em checkpoints de uma branch
+Enviando e compartilhando tags
+    as tags podem ser enviadas para o repositorio de codigo sendo 
+    compartilhada entre os devs
+    o comando e git push origin <main>
+    ou seja voce quiser enviar mais tags git push origin --tags
+Encontrando branches
+    branches novos sao criados a todo tempo e o git pode nao estar mapeando eles
+    com o comando fit fetch voce e atualizado de todos os branchs e tags
+    que ainda nao estao reconhecidos por voce
+    este comando e util para utilizar o branch de algum outro dev do time
+Recebendo alteraçoes
+    o comando git pull serve para recebermos atualizacoes do repositorio remoto
+    cada branch pode ser atualizada com o git pull
+    utilizamos para atualizar a master do repo como tambem quando 
+    trabalhamos em conjunto e queremos receber as atualizacoes de um dev     
                                COMANDOS
     git branch // visualizar a branch atual
     git branch nome_branch // criado novo branches 
@@ -42,7 +66,10 @@ Removendo a stash
     git stash apply 0// recuperar as stashs// o 0 e o numero da stash
     git stash clear //limpa as stash
     git stash drop <nome> // deletar stash especifica
-
-
-        
-    
+    git tag -a <nome> -m "<msg>"// criando tags // git tag -a v1.0 -m "primeira versao"
+    git show <nome> // verificar uma tag
+    git checkout <nome>trocar de tags
+    git push origin <nome_tags>//enviando tags para repositorio
+    git push origin --tags//enviar todas as tags
+    git fetch // atualizando os branches de todo time                  
+                              
