@@ -54,6 +54,10 @@ Recebendo alteraçoes
     cada branch pode ser atualizada com o git pull
     utilizamos para atualizar a master do repo como tambem quando 
     trabalhamos em conjunto e queremos receber as atualizacoes de um dev     
+Enviando alteraçoes
+    o comando git push faz o inverso do pull , ele envia as alteraçoes para o repo remoto
+    serve tambem para enviar as atualizacoes de um branch especifico para outro dev
+    ou quando terminamos uma tarefa e precisamos enviar ao repo                           
                                COMANDOS
     git branch // visualizar a branch atual
     git branch nome_branch // criado novo branches 
@@ -61,6 +65,7 @@ Recebendo alteraçoes
     git checkout nome_branch// mudanças de branch
     git checkout -b nome_branch // muda e criar nova branch
     git merge <nome> // junta o codigo
+    git merge origin/nome// as vezes tem que ser assim
     git stash // reseta o codigo
     git stash list// verificar as stashs
     git stash apply 0// recuperar as stashs// o 0 e o numero da stash
