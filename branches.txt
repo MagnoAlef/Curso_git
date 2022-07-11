@@ -58,6 +58,32 @@ Enviando alteraçoes
     o comando git push faz o inverso do pull , ele envia as alteraçoes para o repo remoto
     serve tambem para enviar as atualizacoes de um branch especifico para outro dev
     ou quando terminamos uma tarefa e precisamos enviar ao repo                           
+Utilizando o remote
+    com o git remote podemos fazer algumas acoes como adiocionar 
+    um repo para tackear ou remover 
+    quando criamos um repo remoto adicionamos ele ao git remote add origin <link>    
+trabalhando com submodulos
+    submodulo e a maneira que temos de possuir dois ou mais projetos em um so repositorio
+    podemos adicionar uma dependencia ao nosso projeto atual porem mantendo suas estruturas separadas
+    para adicionar o submodulo utilizamos o comando git submodule add <repo>
+    para verificar os submodules o comando e git submodule  
+Atualizando o submodule
+    para atualizar um submodule primeiro devemos commitar as mudancas
+    e para enviar para o repo do submodule utilizamos o git push --recurse-submodules=on-demand   
+    este fluxo fara a atualizacao apenas do submodule  
+Exibindo informações
+    o comando git show nos da diversas informaçoes uteis
+    ele nos da as informações do branch atual e tambem seus commits 
+    as modificaçoes de arquivos entre cada commit tambem sao exibidas
+    podemos exibir as informaçoes de tags tambem com git show <tag>
+Exibindo diferenças
+    o comando git diff serve para exibir as diferenças de um branch
+    quando utilizamos as diferenças do branch atual com o remoto serao exibidas no terminal
+    podemos tambem verificar a diferença entre arquivos git diff <arquivo> <arquivo_b>    
+Log resumido
+    o comando git shortlog nos da um log resumido do projeto
+    cada commit sera unido por nome do autor
+    podemos entao saber quais commits foram enviados ao projeto e por quem    
                                COMANDOS
     git branch // visualizar a branch atual
     git branch nome_branch // criado novo branches 
@@ -76,5 +102,19 @@ Enviando alteraçoes
     git checkout <nome>trocar de tags
     git push origin <nome_tags>//enviando tags para repositorio
     git push origin --tags//enviar todas as tags
-    git fetch // atualizando os branches de todo time                  
+    git fetch // atualizando os branches de todo time
+    git remote add origin <link>//adiocionar um repo para tracker ou remove
+    git remote -v // ver as origens do https do repositorio
+    git remote rm origin // remove a origim do repositorio.
+    git submodule  // verificar os submodules
+    git submodule add <repo>//adicionar os submodules
+    git push --recurse-submodules=on-demand//enviar para o repo
+    git show // informaçoes da branch atual e seus commits
+    git show <tag> // informaçoes das tags
+    git diff //exibir as diferenças de um branch
+    git diff <arquivo> <arquivo_b> // diferenca entre arquivos
+    git shortlog // da um log resumido do projeto
+
+
+
                               
