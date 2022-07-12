@@ -84,6 +84,28 @@ Log resumido
     o comando git shortlog nos da um log resumido do projeto
     cada commit sera unido por nome do autor
     podemos entao saber quais commits foram enviados ao projeto e por quem    
+Limpando arquivos untrancked
+    o comando git clean vai verificar e limpar arquivos nao estao sendo trackeados
+    ou seja todos que voce nao utilizou git add
+    utilizado para arquivos que sao gerados automaticamente por 
+    exemplo e atrapalham a visualização do que e realmente importante    
+Otimizando o repositorio
+    o comando git gc e uma abreviação para garbage collector
+    ele identifica arquivos que nao sao mais necessarios e os exclui
+    isso fara com que o repositorio seja otimizado em questoes de performance    
+checando integridade de arquivos
+    o comando git fsck e uma abreviação de file system check
+    esta instrucao verifica a integridade de arquivos e sua conectividade
+    verifcando assim possiveis corrupcoes em arquivos
+    comando de rotina utilizado para ver se esta tudo certo com nossos arquivos
+Reflog
+    o git reflog vai mapear todos os seus passos no repositorio ate uma mudanca de branch e inserida neste log
+    ja o git log que vimos anteriormente apenas armazena os commits de um branch
+    os reflog ficam salvos ate expirar o tempo de expiração padrao e de 30 dias
+Transformando o repo para arquivo
+    com o comando git archive podemos transformar o repo em arquivo compactado por exemplo
+    o comando e git archive --format zip --output master_files.zip main
+    e entao a master vai estar zipada no arquivo master_files.zip 
                                COMANDOS
     git branch // visualizar a branch atual
     git branch nome_branch // criado novo branches 
@@ -114,6 +136,12 @@ Log resumido
     git diff //exibir as diferenças de um branch
     git diff <arquivo> <arquivo_b> // diferenca entre arquivos
     git shortlog // da um log resumido do projeto
+    git clean ou git clean -f// limpar arquivos que nao sao adicionados pelo git add 
+    git gc // identifica arquivos que nao sao usados e os excluir
+    git fsck // verifica a integridade de arquivos e sua conectividade
+     o git reflog // vai mapear todos os seus passos no repositorio
+     git archive --format zip --output master_files.zip main  // transformar o repo em arquivo
+
 
 
 
